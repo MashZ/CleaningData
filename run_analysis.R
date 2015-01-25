@@ -61,4 +61,4 @@ for ( s in 1:numSubjects) {
         row = row + 1
     }
 }
-write.table(result, "tidyTableAverages.csv")
+write.table(result, "tidyTableAverages.csv", row.name = FALSE)
